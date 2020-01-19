@@ -1,0 +1,156 @@
+body{
+	 width: auto;
+    height: 100%;
+    margin: 0 auto;
+    position: static;
+ 
+}
+.main__header{
+	height: 6%;
+  background: #FFBA00;
+  display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: inset -1px 0px 50px 0px rgba(0,0,0,0.75);
+
+
+}
+
+.main__header-content{
+       float: right;
+       margin:20px;
+       font:  50px bold;
+       color: white;
+       text-decoration: none;
+}
+.main__section{
+	height: 20%;
+
+}
+.main__boardname{
+  width: 30%;
+  padding: 3%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 10%;
+  background-color: #FF9C00;
+  font: 50px bold;
+  color: white;
+  text-align: center;
+  border: 6px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+.listcontainer{
+  width: 80%;
+  height: 40%;
+  margin: 2%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+.addlist{
+  width: 20%;
+    height: 80px;
+    margin-top: 4%;
+    margin-left: 5%;
+    outline:none;
+    position: relative;
+    border-radius: 10px;
+    background: #FFBA00;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font: 30px bold;
+    color: white;
+}
+.listname{
+  width: 20%;
+  height: 20px;
+  margin-top: 6%;
+  margin-left: 5%;
+  float: left;
+  font: 20px bold;
+  border: 2px solid black;
+  outline:none;
+  display: none;
+}
+
+.tmpnode{
+  width: auto;
+  height: auto;
+  margin-top: 4%;
+  background-color: white;
+  border: 6px solid #FFBA00;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  -webkit-box-shadow: -1px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+.listlabel{
+  font: 30px bold;
+  padding: 5px;
+  background-color: #FFBA00;
+  color:white;
+  border-radius: 10px;
+}
+
+.listbutton{
+    width: 20%;
+    height: 50px;
+    margin-top: 4%;
+    outline:none;
+    position: relative;
+    border-radius: 10px;
+    background: #FFBA00;
+    cursor: pointer;
+    font: 20px bold;
+    color: white;
+}
+.listinput{
+  width: 80%;
+  height: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  position: relative;
+  font: 20px bold;
+  border: 2px solid black;
+  outline:none;
+}
+
+.listelement{
+   width: 80%;
+  height: auto;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  border-radius: 10px;
+  background-color: #FFBA00;
+  text-align: center;
+  display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.listelement__text{
+  font: 20px bold;
+    width: auto;
+    margin: 5%;
+}
+
+.listelement__span{
+ font: 30px bold;
+    cursor: pointer;
+    margin: auto;
+    float: right;
+}
