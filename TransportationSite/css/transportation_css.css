@@ -40,10 +40,11 @@ body{
 .languages__content{
 	margin-right: 10%;
 	font-family: 'Roboto', sans-serif;
-	font: 10pt sans-serif;
+	font: 14px sans-serif;
 	color: white;
 	opacity: 50%;
 	cursor: pointer;
+	text-transform: uppercase;
 
 
 }
@@ -56,7 +57,7 @@ body{
 
 .header__content{
 	font-family: 'Roboto', sans-serif;
-	font: 10pt sans-serif;
+	font: 14px sans-serif;
 	color: white;
 }
 
@@ -90,7 +91,7 @@ body{
 	align-content: center;
 }
 
-.transportationinfo{
+.transportation-info{
 	border: 1px solid #C8A35F;
 	display: flex;
 	flex-direction: column;
@@ -98,7 +99,7 @@ body{
 
 }
 
-.transportationinfo__title{
+.transportation-info__title{
 	text-align: center;
 	padding: 2%;
 	color: white;
@@ -106,9 +107,10 @@ body{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 64px;
+	text-transform: uppercase;
 }
 
-.transportationinfo__text{
+.transportation-info__text{
 	text-align: center;
 	padding: 2%;
 	padding-left: 15%;
@@ -147,6 +149,7 @@ body{
 .menu__label{
 	color: white;
 	cursor: pointer;
+	text-transform: uppercase;
 }
 
 .points{
@@ -203,6 +206,7 @@ body{
 	font-weight: bold;
 	font-size: 40px;
 	padding-top: 10%;
+	text-transform: uppercase;
 
 	color: #FFFFFF;
 }
@@ -233,6 +237,7 @@ body{
 	font-weight: normal;
 	font-size: 18px;
 	cursor: pointer;
+	text-transform: uppercase;
 
 	color: #FFFFFF;
 }
@@ -249,7 +254,7 @@ body{
 	align-items: flex-end;	
 }
 
-.truckgallery{
+.truck-gallery{
 	width: 60%;
 	display: flex;
 	flex-direction: column;
@@ -258,7 +263,7 @@ body{
 	float: left;
 }
 
-.truckgallery__next{
+.truck-gallery__next{
 	width: 20%;
 	display: flex;
 	flex-direction: row;
@@ -270,11 +275,12 @@ body{
 	text-align: center;
 	letter-spacing: 0.1em;
 	text-align: center;
+	text-transform: uppercase;
 
 	color: #C8A35F;
 }
 
-.truckgallery__nextarrow{
+.truck-gallery__nextarrow{
 	cursor: pointer;
 	margin-left: 50%;
 	margin-top: -25px;
@@ -289,7 +295,7 @@ body{
 	color: #C8A35F;
 }
 
-.truckgallery__previousarrow{
+.truck-gallery__previousarrow{
 	cursor: pointer;
 	margin-right: 50%;
 	margin-top: -25px;
@@ -304,7 +310,7 @@ body{
 	color: #C8A35F;
 }
 
-.truckgallery__picture{
+.truck-gallery__picture{
 	float: left;
 	margin-left:  -140%;
 	width: 445px;
@@ -343,16 +349,16 @@ body{
 	color: #FFFFFF;
 }
 
-.servicelist{
+.service-list{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
-.serviceelement{
+.service-element{
 	background-color: #393F47;
-	width: 24%;
-	height: 90%;
+	width: 220px;
+	height: 166px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -361,17 +367,17 @@ body{
 	cursor: pointer;
 }
 
-.serviceelement:hover{
+.service-element:hover{
 	background-color: #C8A35F;
-	width: 24%;
-	height: 90%;
+	width: 220px;
+	height: 166px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 }
 
-.serviceelement__icon{
+.service-element__icon{
 	display: flex;
 	align-items: center;
     align-content: center;
@@ -380,7 +386,7 @@ body{
 	height: 70px;
 }
 
-.serviceelement:hover .serviceelement__icon{
+.service-element:hover .service-element__icon{
 	display: flex;
 	align-items: center;
     align-content: center;
@@ -392,20 +398,20 @@ body{
 	height: 70px;
 }
 
-.serviceelement__plane{
+.service-element__plane{
 	background-image: url(../img/plane.png);
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
 }
 
-.serviceelement:hover .serviceelement__plane{
+.service-element:hover .service-element__plane{
 	background-image: url(../img/plane_black.png);
 	width: 30px;
 	height: 30px;
 }
 
-.serviceelement__text{
+.service-element__text{
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
@@ -426,7 +432,7 @@ body{
 	background-color: #393F47;
 }
 
-.aboutcompany_left{
+.about-company_left{
 	position: relative;
 	height: 100%;
 	width: 40%;
@@ -438,7 +444,7 @@ body{
 	align-items: flex-end;
 }
 
-.infocompany{
+.info-company{
 	width: 60%;
 	display: flex;
 	flex-direction: column;
@@ -447,17 +453,18 @@ body{
 	float: right;
 }
 
-.infocompany__title{
+.info-company__title{
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
 	padding-top: 10%;
+	text-transform: uppercase;
 
 	color: #FFFFFF;
 }
 
-.infocompany__text{
+.info-company__text{
 	width: 130%;
 	font-family: Roboto;
 	font-style: normal;
@@ -470,7 +477,7 @@ body{
 	color: #FFFFFF;
 }
 
-.aboutcompany_right{
+.about-company_right{
 	position: relative;
 	height: 100%;
 	width: 40%;
@@ -492,7 +499,7 @@ body{
 
 }
 
-.statselement{
+.stats-element{
 	width: 165px;
 	height: 125px;
 	background-color: white;
@@ -505,7 +512,7 @@ body{
 
 }
 
-.statselement__number{
+.stats-element__number{
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
@@ -516,7 +523,7 @@ body{
 	color: #2F343A;
 }
 
-.statselement__maintext{
+.stats-element__maintext{
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -528,7 +535,7 @@ body{
 	color: #000000;
 }
 
-.statselement__sec-text{
+.stats-element__sec-text{
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -540,7 +547,7 @@ body{
 	color: #000000;
 }
 
-.statselement__pic{
+.stats-element__pic{
  	width: 165px;
 	height: 125px;
 	border: 1px solid #C8A35F;
@@ -654,7 +661,7 @@ body{
 		height: 60%;
 	}
 
-	.truckgallery__picture{
+	.truck-gallery__picture{
 		margin-left: -120%;
 	}
 
@@ -709,11 +716,11 @@ body{
 		height: 60%;
 	}
 
-	.truckgallery__picture{
+	.truck-gallery__picture{
 		margin-left: -100%;
 	}
 
-	.truckgallery__next{
+	.truck-gallery__next{
 		margin-left: -10%;
 	}
 
@@ -769,11 +776,11 @@ body{
 		height: 40%;
 	}
 
-	.truckgallery__picture{
+	.truck-gallery__picture{
 		margin-left: -80%;
 	}
 
-	.truckgallery__next{
+	.truck-gallery__next{
 		margin-left: -35%;
 	}
 
@@ -794,12 +801,12 @@ body{
 		margin-right: 25%;
 	}
 
-	.statselement{
+	.stats-element{
     width: 185px;
     height: 145px;
 	}
 
-	.statselement__pic{
+	.stats-element__pic{
     width: 185px;
     height: 145px;
 	}
@@ -811,6 +818,176 @@ body{
 
 	.footer{
 		top: 210%;
+	}
+
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1024px) {
+
+	.menu__label{
+		font-size: 12px;
+	}
+
+	.company{
+		width: 43%;
+	}
+
+	.points{
+		width: 43%;
+	}
+
+
+	.company__line{
+		height: 50px;
+		
+	}
+
+	.transportation-info{
+		width: 80%;
+
+	}
+
+	.eurvans{
+		height: 70%;
+	}
+
+	.eurotransportation__title{
+		
+    	font-size: 30px;
+
+	}
+
+	.eurotransportation__text{
+		font-size: 14px;
+	}
+
+	.eurotransportation__button{
+		width: 180px;
+    	
+	}
+
+
+	.truck-gallery__picture{
+		width: 425px;
+    	height: 246px;
+    	background-size: cover;
+	}
+
+
+	.services{
+		top: 193%;
+    	height: 110%;
+	}
+
+	.services__title{
+		font-size: 30px;
+
+	}
+
+	.about{
+		top: 315%;
+    	height: 70%;
+	}
+
+	.info-company__title{
+		font-size: 27px;
+	}
+
+	.info-company__text{
+		font-size: 14px;
+    	line-height: 22px;
+	}
+
+	.map{
+		top: 400%;
+    	
+	}
+
+	.footer{
+		top: 460%;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+
+	.menu__label{
+		font-size: 12px;
+	}
+
+	.company{
+		width: 43%;
+	}
+
+	.points{
+		width: 43%;
+	}
+
+
+	.company__line{
+		height: 50px;
+		
+	}
+
+	.transportation-info{
+		width: 80%;
+
+	}
+
+	.eurotransportation__title{
+		
+    	font-size: 30px;
+
+	}
+
+	.eurotransportation__text{
+		font-size: 14px;
+	}
+
+	.eurotransportation__button{
+		width: 180px;
+    	
+	}
+
+
+	.truck-gallery__picture{
+		width: 425px;
+    	height: 246px;
+    	background-size: cover;
+	}
+
+
+	.services{
+		top: 220%;
+    	height: 130%;
+	}
+
+	.services__title{
+		font-size: 30px;
+
+	}
+
+	.about{
+		top: 365%;
+    	height: 90%;
+	}
+
+	.info-company__title{
+		font-size: 27px;
+	}
+
+	.info-company__text{
+		font-size: 14px;
+    	line-height: 22px;
+	}
+
+	.map{
+		top: 465%;
+    	
+	}
+
+	.footer{
+		top: 525%;
 	}
 
 }
@@ -847,7 +1024,7 @@ body{
 		height: 60%;
 	}
 
-	.transportationinfo{
+	.transportation-info{
 		width: 80%;
 
 	}
@@ -873,20 +1050,20 @@ body{
 		height: 60%;
 	}
 
-	.truckgallery__picture{
+	.truck-gallery__picture{
 		margin-left: -140%;
     	background-size: cover;
     	width: 230px;
    		height: 171px;
 	}
 
-	.truckgallery__next{
+	.truck-gallery__next{
 		margin-left: -35%;
 	}
 
 	.services{
 		top: 155%;
-    	height: 45%;
+    	height: 100%;
 	}
 
 	.services__title{
@@ -894,21 +1071,48 @@ body{
 
 	}
 
-	.serviceelement__text{
+	.service-element__text{
 		font-size: 12px;
+	}
+
+	.service-element{
+		width: 200px;
+    	height: 126px;
+	}
+
+	.service-element:hover{
+		width: 200px;
+    	height: 126px;
+	}
+
+	.service-element:hover .service-element__icon{
+		width: 60px;
+		height: 60px;
+	}
+
+	.service-element__plane{
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+	}
+
+	.service-element:hover .service-element__plane{
+		width: 30px;
+		height: 30px;
+		background-size: cover;
 	}
 
 
 	.about{
-		top: 240%;
+		top: 265%;
     	height: 65%;
 	}
 
-	.infocompany__title{
+	.info-company__title{
 		font-size: 24px;
 	}
 
-	.infocompany__text{
+	.info-company__text{
 		font-size: 14px;
     	line-height: 18px;
 	}
@@ -919,23 +1123,23 @@ body{
     	margin-right: 15%;
 	}
 
-	.statselement{
+	.stats-element{
     width: 145px;
     height: 105px;
 	}
 
-	.statselement__pic{
+	.stats-element__pic{
     width: 145px;
     height: 105px;
 	}
 
 	.map{
-		top: 320%;
+		top: 335%;
     	height: 20%;
 	}
 
 	.footer{
-		top: 340%;
+		top: 355%;
 	}
 
 }
@@ -991,7 +1195,7 @@ body{
 		height: 50%;
 	}
 
-	.transportationinfo{
+	.transportation-info{
 		width: 80%;
 		
 
@@ -1002,7 +1206,7 @@ body{
     	margin-right: 20%;
 	}
 
-	.transportationinfo__title{
+	.transportation-info__title{
 		font-size: 18px;
 	}
 
@@ -1029,7 +1233,7 @@ body{
 		height: 40%;
 	}
 
-	.truckgallery__picture{
+	.truck-gallery__picture{
 	    margin-left: -150%;
     	width: 150px;
     	height: 91px;
@@ -1037,17 +1241,17 @@ body{
     	padding-bottom: 10%;
 	}
 
-	.truckgallery__next{
+	.truck-gallery__next{
 		margin-left: -55%;
 		font-size: 10px;
 	}
 
-	.truckgallery__nextarrow{
+	.truck-gallery__nextarrow{
 		margin-top: -13px;
 		font-size: 30px;
 	}
 
-	.truckgallery__previousarrow{
+	.truck-gallery__previousarrow{
 		margin-top: -13px;
 		font-size: 30px;
 	}
@@ -1063,17 +1267,17 @@ body{
 
 	}
 
-	.serviceelement{
+	.service-element{
 		width: 24%;
     	height: 50%;
 	}
 
-	.serviceelement:hover{
+	.service-element:hover{
 		width: 24%;
     	height: 50%;
 	}
 
-	.serviceelement__text{
+	.service-element__text{
 		font-size: 7px;
 	}
 
@@ -1083,15 +1287,15 @@ body{
     	height: 35%;
 	}
 
-	.infocompany{
+	.info-company{
 		margin-right: 10%;
 	}
 
-	.infocompany__title{
+	.info-company__title{
 		font-size: 15px;
 	}
 
-	.infocompany__text{
+	.info-company__text{
 		font-size: 8px;
     	line-height: 10px;
 	}
@@ -1102,24 +1306,24 @@ body{
     	margin-right: 25%;
 	}
 
-	.statselement{
+	.stats-element{
     	width: 75px;
     	height: 55px;
 	}
 
-	.statselement__number{
+	.stats-element__number{
 		font-size: 22px;
 	}
 
-	.statselement__maintext{
+	.stats-element__maintext{
 		font-size: 10px;
 	}
 
-	.statselement__sec-text{
+	.stats-element__sec-text{
 		font-size: 8px;
 	}
 
-	.statselement__pic{
+	.stats-element__pic{
     	width: 75px;
     	height: 55px;
 	}
@@ -1189,7 +1393,7 @@ body{
 		height: 50%;
 	}
 
-	.transportationinfo{
+	.transportation-info{
 		width: 80%;
 		
 
@@ -1200,7 +1404,7 @@ body{
     	margin-right: 20%;
 	}
 
-	.transportationinfo__title{
+	.transportation-info__title{
 		font-size: 18px;
 	}
 
@@ -1227,7 +1431,7 @@ body{
 		height: 40%;
 	}
 
-	.truckgallery__picture{
+	.truck-gallery__picture{
 	    margin-left: -150%;
     	width: 150px;
     	height: 91px;
@@ -1235,24 +1439,24 @@ body{
     	padding-bottom: 10%;
 	}
 
-	.truckgallery__next{
+	.truck-gallery__next{
 		margin-left: -55%;
 		font-size: 10px;
 	}
 
-	.truckgallery__nextarrow{
+	.truck-gallery__nextarrow{
 		margin-top: -13px;
 		font-size: 30px;
 	}
 
-	.truckgallery__previousarrow{
+	.truck-gallery__previousarrow{
 		margin-top: -13px;
 		font-size: 30px;
 	}
 
 	.services{
-		top: 120%;
-    	height: 50%;
+		top: 125%;
+    	height: 60%;
     	left: 10%;
 	}
 
@@ -1261,42 +1465,48 @@ body{
 
 	}
 
-	.serviceelement{
-		width: 24%;
-    	height: 50%;
+	.service-element{
+		width: 130px;
+    	height: 70px;
 	}
 
-	.serviceelement:hover{
-		width: 24%;
-    	height: 50%;
+	.service-element:hover{
+		width: 130px;
+    	height: 70px;
 	}
 
-	.serviceelement:hover .serviceelement__icon{
-		width: 55px;
-		height: 55px;
+	.service-element:hover .service-element__icon{
+		width: 40px;
+		height: 40px;
 	}
 
+	.service-element__plane{
+		width: 20px;
+		height: 20px;
+		background-size: cover;
+	}
 
-
-	.serviceelement__text{
-		font-size: 6px;
+	.service-element:hover .service-element__plane{
+		width: 20px;
+		height: 20px;
+		background-size: cover;
 	}
 
 
 	.about{
-		top: 175%;
+		top: 189%;
     	height: 35%;
 	}
 
-	.infocompany{
+	.info-company{
 		margin-right: 10%;
 	}
 
-	.infocompany__title{
+	.info-company__title{
 		font-size: 13px;
 	}
 
-	.infocompany__text{
+	.info-company__text{
 		font-size: 8px;
     	line-height: 10px;
 	}
@@ -1307,36 +1517,36 @@ body{
     	margin-right: 25%;
 	}
 
-	.statselement{
+	.stats-element{
     	width: 65px;
     	height: 55px;
 	}
 
-	.statselement__number{
+	.stats-element__number{
 		font-size: 20px;
 	}
 
-	.statselement__maintext{
+	.stats-element__maintext{
 		font-size: 8px;
 	}
 
-	.statselement__sec-text{
+	.stats-element__sec-text{
 		font-size: 6px;
 	}
 
-	.statselement__pic{
+	.stats-element__pic{
     	width: 65px;
     	height: 55px;
 	}
 
 	.map{
-		top: 214%;
+		top: 229%;
 		height: 20%;
 	}
 
 	.footer{
 		height: 35%;
-		top: 234%;
+		top: 249%;
 		flex-direction: column;
     	justify-content: space-around;
     	align-items: baseline;
@@ -1398,7 +1608,7 @@ body{
 		height: 50%;
 	}
 
-	.transportationinfo{
+	.transportation-info{
 		width: 80%;
 		
 
@@ -1409,7 +1619,7 @@ body{
     	margin-right: 20%;
 	}
 
-	.transportationinfo__title{
+	.transportation-info__title{
 		font-size: 18px;
 	}
 
@@ -1436,7 +1646,7 @@ body{
 		height: 40%;
 	}
 
-	.truckgallery__picture{
+	.truck-gallery__picture{
 	    margin-left: -150%;
     	width: 150px;
     	height: 91px;
@@ -1444,24 +1654,24 @@ body{
     	padding-bottom: 10%;
 	}
 
-	.truckgallery__next{
+	.truck-gallery__next{
 		margin-left: -55%;
 		font-size: 10px;
 	}
 
-	.truckgallery__nextarrow{
+	.truck-gallery__nextarrow{
 		margin-top: -13px;
 		font-size: 30px;
 	}
 
-	.truckgallery__previousarrow{
+	.truck-gallery__previousarrow{
 		margin-top: -13px;
 		font-size: 30px;
 	}
 
 	.services{
-		top: 121%;
-    	height: 50%;
+		top: 125%;
+    	height: 60%;
     	left: 10%;
 	}
 
@@ -1470,42 +1680,54 @@ body{
 
 	}
 
-	.serviceelement{
-		width: 24%;
-    	height: 50%;
+	.service-element{
+		width: 110px;
+    	height: 70px;
 	}
 
-	.serviceelement:hover{
-		width: 24%;
-    	height: 50%;
+	.service-element:hover{
+		width: 110px;
+    	height: 70px;
 	}
 
-	.serviceelement:hover .serviceelement__icon{
-		width: 55px;
-		height: 55px;
+	.service-element:hover .service-element__icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.service-element__plane{
+		width: 20px;
+		height: 20px;
+		background-size: cover;
+	}
+
+	.service-element:hover .service-element__plane{
+		width: 20px;
+		height: 20px;
+		background-size: cover;
 	}
 
 
 
-	.serviceelement__text{
+	.service-element__text{
 		font-size: 5px;
 	}
 
 
 	.about{
-		top: 176%;
+		top: 189%;
     	height: 30%;
 	}
 
-	.infocompany{
+	.info-company{
 		margin-right: 10%;
 	}
 
-	.infocompany__title{
+	.info-company__title{
 		font-size: 11px;
 	}
 
-	.infocompany__text{
+	.info-company__text{
 		font-size: 6px;
     	line-height: 8px;
 	}
@@ -1516,36 +1738,36 @@ body{
     	margin-right: 25%;
 	}
 
-	.statselement{
+	.stats-element{
     	width: 45px;
     	height: 35px;
 	}
 
-	.statselement__number{
+	.stats-element__number{
 		font-size: 14px;
 	}
 
-	.statselement__maintext{
+	.stats-element__maintext{
 		font-size: 6px;
 	}
 
-	.statselement__sec-text{
+	.stats-element__sec-text{
 		font-size: 5px;
 	}
 
-	.statselement__pic{
+	.stats-element__pic{
     	width: 45px;
     	height: 35px;
 	}
 
 	.map{
-		top: 210%;
+		top: 224%;
 		height: 20%;
 	}
 
 	.footer{
 		height: 35%;
-		top: 230%;
+		top: 244%;
 		flex-direction: column;
     	justify-content: space-around;
     	align-items: baseline;
