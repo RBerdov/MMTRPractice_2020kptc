@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>JS Test</title>
+<!— подключаем стили Mocha, для отображения результатов —>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+<!— подключаем библиотеку Mocha —>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+<!— подключаем chai —>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+<!— настраиваем Mocha: предстоит BDD-тестирование —>
+<script>
+mocha.setup('bdd');
+</script>
+<!— в chai есть много всего, выносим assert в глобальную область —>
+<script>
+var assert = chai.assert;
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	//1
+	function findFactorial(number){
+	 return (number != 1) ? number * findFactorial(number - 1) : 1;
+}
+
+	//2
+function findLongest(str){
+	let longestWord = str.split(' ').reduce(function(longest, currentWord) {
+    return currentWord.length > longest.length ? currentWord : longest;
+  }, "");
+  return longestWord.length;
+}
+
+	//3
+ function findLargestOfArrays(arr) {
+   let largest=[];
+   for(var i=0;i<arr.length;i++){
+    let s=0;
+    for(var j=0;j<=arr[i].length;j++){
+      if(arr[i][j]>s){
+        s=arr[i][j];
+
+      }
+    }
+    largest.push(s);
+   }
+ return largest + ".";
+}
+
+	//4
+function cutString(str, maxLength){
+	if(str.length > maxLength){
+	let a = str.length - maxLength;
+	return(str.substr(0, str.length - a) + '...')
+	}
+
+}
+
+	//5
+function changeStringToUpperCase(str){
+	return(
+str.split(/\s+/).map(word => word[0].toUpperCase() + word.substring(1)).join(' ')
+);
+}
+
+	//6
+function combineArrays(arr1, arr2, n){
+	for (var c=arr2, n=n-1; n<arr1.length; n++){
+		arr2.push(arr1[n]);
+	}
+	return(c);
+}
+
+
+	//7
+function deleteFalsy(arr) {
+let arr2 = [];
+
+arr.forEach(function(item) {
+if (!isNaN(item)) {
+	if (item !== 0) {
+		if (item !== null && item !== "" && item !== '') {
+arr2.push(item);
+		}
+	}
+}
+	});
+
+return arr2 + ".";
+}
+ //8
+function checkString(arr) {
+str1 = arr[0].toString().toLowerCase();
+str2 = arr[1].toString().toLowerCase();
+
+for (let i = 0; i < str2.length; i++) {
+	if (str1.indexOf(str2[i]) !== -1) {
+		f = true;
+	} 
+	else {
+		f = false;
+		break;
+		}
+	}
+
+return f;
+} 
+
+	//9
+function splitArray(arr, size) {
+let arr2 = [];
+
+for (let i = 0; i < Math.ceil(arr.length/size); i++){
+arr2[i] = arr.slice( (i * size), (i * size) + size);
+	}
+
+return arr2 + ".";
+}
+
+	//10
+function createRecurMass(arr, n) {
+if (n === 1) {
+arr.push(n);
+return arr;
+} else {
+arr.push(n);
+return createRecurMass(arr, n - 1);
+}
+}
+
+</script>
+<script src="js/js-test.js" charset="utf-8"></script>
+<div class="mocha" id="mocha"></div>
+<!— запустить тесты! —>
+<script>
+mocha.run();
+</script>
+</body>
