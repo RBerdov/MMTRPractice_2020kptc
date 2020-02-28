@@ -1,0 +1,14 @@
+
+@font-face{
+    font-family: 'Comic';
+    src: url('./fonts/comic-font2.ttf');
+}
+
+$a: 'Comic';
+
+.label-text{
+    text-align: center;
+    font-family: 'Comic';
+    font-size: 5rem;
+    color: darkred;
+}
